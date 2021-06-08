@@ -33,8 +33,4 @@ Créez une variable magnitude allant de 0 à 9. Gérez l'affichage selon la magn
 	6. Fort séisme capable d\'engendrer des destructions majeures sur une large distance (180 km) autour de l\'épicentre
 	7. Séisme capable de destructions majeures à modérées sur une très large zone en fonction de la distance
 	8. Séisme capable de destructions majeures sur une très large zone de plusieurs centaines de kilomètres
-<<<<<<< HEAD
 	9. Séisme capable de tout détruire sur une très vaste zone
-=======
-	9. Séisme capable de tout détruire sur une très vaste zone
->>>>>>> 26e69314d79c23f9ebe7577d17b49d13af1432a9
