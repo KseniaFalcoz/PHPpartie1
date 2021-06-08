@@ -12,20 +12,20 @@
 <div class="container col-6 text-center">
     
     <h1>Exercices PHP Partie 1</h1>
-<?php echo date('Y/d/m h:i:s'); ?>
-    <h2>Exercice 1</h2>
+<?php // echo date('Y/d/m h:i:s'); ?>
+    <h2 class="mt-4">Exercice 1</h2>
 <?php
      $text = 'Bonjour !';
      echo $text;
 ?>
-    <h2>Exercice 2</h2>
+    <h2 class="mt-4">Exercice 2</h2>
 <?php
     $nom = 'Doe';
     $prenom = 'John';
     $age = 25;
     echo 'Bonjour, je m\'appelle'. ' ' . $prenom . ' ' . $nom . ' ' . 'et j\'ai'. ' ' . $age . ' ' . 'ans.';
 ?>
-    <h2>Exercice 3</h2>
+    <h2 class="mt-4">Exercice 3</h2>
 <?php
     $age = 20;
     if($age > 0 && $age < 120) {
@@ -38,7 +38,7 @@
         echo 'Entrez un age valide.';
     };
 ?>
-    <h2>Exercice 4</h2>
+    <h2 class="mt-4">Exercice 4</h2>
 <?php
     $age = rand(0, 120);
     echo $age. ' ans :';
@@ -48,16 +48,17 @@
             echo ' Vous etes mineur.';
         };
 ?>
-    <h2>Exercice 5</h2>
+    <h2 class="mt-4">Exercice 5</h2>
 <?php
     $age = rand(0, 120);
     $genres = array('femme', 'home');
     $genre = $genres[rand(0, 1)];
     echo 'Vous êtes un(e) ' .$genre.  ' et vous avez ' .$age. ' ans.';
 ?>
-    <h2>Exercice 6</h2>
+    <h2 class="mt-4">Exercice 6</h2>
 <?php
 $seisme = rand(1,9);
+echo 'La magnitude est ' .$seisme. ' : ';
  switch ($seisme) {
      case 1:
          echo 'Micro-séisme impossible à ressentir.';
